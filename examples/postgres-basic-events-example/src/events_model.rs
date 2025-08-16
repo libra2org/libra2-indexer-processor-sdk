@@ -4,8 +4,8 @@
 #![allow(clippy::extra_unused_lifetimes)]
 
 use crate::schema::events;
-use aptos_indexer_processor_sdk::{
-    aptos_protos::transaction::v1::Event as EventPB,
+use libra2_indexer_processor_sdk::{
+    libra2_protos::transaction::v1::Event as EventPB,
     utils::convert::{standardize_address, truncate_str},
 };
 use diesel::{Identifiable, Insertable};
